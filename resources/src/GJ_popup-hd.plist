@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>GJ_popup01_001.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{0,0},{868,576}}</string>
+                <key>offset</key>
+                <string>{2,-2}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{4,4},{868,576}}</string>
+                <key>sourceSize</key>
+                <string>{872,580}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>GJ_popup-hd.png</string>
+            <key>size</key>
+            <string>{868,576}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:e842a33cfbe17f60266224f43ebe90da$</string>
+            <key>textureFileName</key>
+            <string>GJ_popup-hd.png</string>
+        </dict>
+    </dict>
+</plist>

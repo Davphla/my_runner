@@ -1,0 +1,43 @@
+Geometry dash compiler and graphic motor created with CSFML.
+
+USAGE
+    ./my_runner [OPTIONS] [FILE_PATH]
+    FILE_PATH   launch the level if it's compatible.
+
+DESCRIPTION
+    This runner is a recreation of "Geometry Dash" by RobTopGames
+    and use the exact same compiling and data behavior as the original (See .legend for more info).
+    It's in a sort a compiler of the real game. It was made to fit with the older version
+    and so it does not support all more recent objects.
+    Colors are also randomized for fun.
+
+EDITOR
+    The editor is compatible with all 100 first object ID of the real game (with speeds included).
+    In a way, any levels of the real game that uses these objects can be loaded.
+    
+    How to use it :
+    This editor was made by GD Colon for fun and is reused here to fit for this project.
+    Pretty much everything is explained in the "Instructions" tab of the Spreadsheet in order to create the level.
+    Once you create the level, you will have to import the data using the "Data" tab and put it in a file, and simply load it
+    by adding it in argument (As : './my_runner "map_name").
+    
+    Editor link : https://docs.google.com/spreadsheets/d/1dPFx_Ew2np75C2pwh4x2n3oLQRUw-BL9e4vAarzHjbM/edit?usp=sharing.
+    Since this link is general for everyone, here's a new editor in case : https://gdcolon.com/gdsheet.
+
+    Caution :
+    Modifying this level file might create unpredicted behavior, do not load any other files that are not compatible for this runner.
+    All non supported objects wont be charged in the real level.
+
+OPTIONS
+    -h print the usage and quit.
+    -s print settings and quit.
+    -l print .legend and quit.
+    -p print game note and quit.
+
+SETTINGS
+    All options and settings are located in "./option.txt"
+    and can manually be changed without being recompiled.
+
+USER INTERACTIONS
+    MOUSE_CLICK || UP_ARROW || SPACE     jump
+
