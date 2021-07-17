@@ -9,9 +9,9 @@
          |___/______|                               
 
 
-How data storage works:
+# How data storage works:
 
-- This runner use the exact same compression and data behavior as the original game (Which is Geometry dash), so it's a sort of compiler.
+- This runner use the exact same compression and data behavior as the original game (Which is Geometry dash), so it's a sort of interpreter.
 In a way, any levels of the real game that are old enough can run on this program. 
 It consist of 2 differents strings, the inner level string and the level object string.
 
